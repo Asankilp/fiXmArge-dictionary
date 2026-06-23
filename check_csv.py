@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""检查 fixmarge-complete.csv 的重复词和列数一致性"""
+"""检查 魔女語辞典fiXmArge.csv 的重复词和列数一致性"""
 import csv
 import sys
 from collections import Counter
 
-CSV_FILE = 'fixmarge-complete.csv'
+CSV_FILE = '魔女語辞典fiXmArge.csv'
 EXPECTED_COLUMNS = 7
 
 def main():
